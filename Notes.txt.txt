@@ -1,0 +1,99 @@
+End to end ML Project implementation
+
+DAY 1 
+* Agenda
+1. Intriduction
+2. Github repo setup
+3. Project template creation
+4. Project setup
+5. Logging, exception and utility
+6. Project workfilos
+7. Notebook experiments
+8. Components implementation
+	1. Data ingestion
+	2. Data validation
+	3. Data transformation
+	4. Model training
+	5. Model evaluation
+9. Training pipeline
+10. Prediction pipeline
+11. User app implementation
+12. Dockerization
+13. Deployment on AWS - CICD
+
+* Prerequisite :
+1. Python progrsmming - OOP's
+2. Machine Learning concept
+3. AWS account - Deployment
+4. System configuration - 
+5. Your dedication
+
+* Tech stack
+1. pandas
+2. sk-learn
+3. matplotlib / seaborn
+4. pyyaml 
+5. Flask/ UI app
+6. AWS - Deployment
+
+* End to end implementation :
+1. Project structure should not be always fixed.
+2. Why OOPs concepty is required for end to end.
+
+* Today :
+1. Project introduction
+2. Neurolab setup
+3. Github setup with neurolab
+4. Project template
+5. Requirement installation and project setup
+
+===================================================
+
+1. Create repo on github
+2. Clone repo : git clone https://github.com/mungekarkiran/End-to-end-ML-project.git
+3. Move to folder
+4. Create a file : touch template.py
+5. Push file to github :
+> git add .
+> git commit -m "first commit"
+	- git config --global user.email "mungekarkiran05@gmail.com"
+	- git config --global user.name "mungekarkiran" 
+> git push origin main
+6. Copy code in to template.py
+7. Run the template.py file
+	- Cookiecutter is a templating library for creating project boilerplates in any programming language.
+8. Push the changes on github
+9. For project setup create virtual env.
+> conda create -n ml_proj python=3.8 -y
+> conda activate ml_proj
+9.1. Copy code in setup.py file
+	- REPO_NAME = "End-to-end-ML-project"
+	- AUTHOR_USER_NAME = "mungekarkiran"
+	- SRC_REPO = "red_wine_quality_project"
+	- AUTHOR_EMAIL = "mungekarkiran05@gmail.com"
+ > pip install -r requirements.txt
+10. Push the changes on github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
