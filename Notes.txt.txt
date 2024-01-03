@@ -74,6 +74,23 @@ DAY 1
  > pip install -r requirements.txt
 10. Push the changes on github
 
+===================================================
+
+Day 2
+* Today :
+1. Notebook experiment
+2. Project utility : - logging, exceptions, utils module
+3. Project workflow
+
+
+Wine Quality data
+
+load data -> EDA ->  
+
+1. Load data to research folder
+2. Create Experiment.ipynb file in research folder
+3. Select env in Experiment.ipynb file (ml_proj python3.8).
+4. Notebook experiment
 
 
 
