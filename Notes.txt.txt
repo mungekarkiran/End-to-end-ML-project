@@ -91,7 +91,18 @@ load data -> EDA ->
 2. Create Experiment.ipynb file in research folder
 3. Select env in Experiment.ipynb file (ml_proj python3.8).
 4. Notebook experiment
+5. Commite the code
 
+6. Add logging functionality (We have 2 ways)
+- src/red_wine_quality_project/logging
+	- src/red_wine_quality_project/logging/__init__.py
+	- write logging code
+	- import logging in main.py
+	- run main.py
+
+- src/red_wine_quality_project/__init__.py # constructor file
+	- copy and pest the src/red_wine_quality_project/logging/__init__.py code
+	- 
 
 
 
