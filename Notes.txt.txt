@@ -125,6 +125,13 @@ load data -> EDA ->
 	8. update the main.py => 
 	9. update the app.py => part which used to combine with flask
 
+10. commit the changes
+
+===================================================
+
+Day 3
+* Today :
+
 
 
 
