@@ -3,7 +3,7 @@ import urllib.request as request
 import zipfile
 from red_wine_quality_project import logger
 from red_wine_quality_project.utils.common import get_size
-from red_wine_quality_project.entity import DataIngestionConfig
+from red_wine_quality_project.entity.config_entity import DataIngestionConfig
 from pathlib import Path
 
 class DataIngestion:

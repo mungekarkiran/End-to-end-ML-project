@@ -138,7 +138,7 @@ Day 3
 
 - on Jupyter Notebook and then on VS code
 
-
+* Data ingestion component
 1. create End-to-end-ML-project\research\01_Data_ingestion.ipynb file
 2. update config.yaml => 
 - create folder artifacts
@@ -170,15 +170,21 @@ Day 3
 - in research\01_Data_ingestion.ipynb file first :: class DataIngestion
 
 10. move to .py file 
-- update the entity : End-to-end-ML-project/src/red_wine_quality_project/entity/__init__.py
+- update the entity : End-to-end-ML-project/src/red_wine_quality_project/entity/config_entity.py
 - update the configuration manager in src config : End-to-end-ML-project/src/red_wine_quality_project/config/configuration.py
 - update the components : End-to-end-ML-project/src/red_wine_quality_project/components/data_ingestion.py
 - update the pipeline : End-to-end-ML-project/src/red_wine_quality_project/pipeline/stage_01_data_ingestion.py
 - update the main.py : End-to-end-ML-project/main.py
 
+* Dava validation component
+1. add configuration : End-to-end-ML-project/config/config.yaml
+2. update entity in notebook : End-to-end-ML-project/research/02_Data_validation.ipynb
+3. update the configuration manager in src config : End-to-end-ML-project/research/02_Data_validation.ipynb
+4. update the components : End-to-end-ML-project/research/02_Data_validation.ipynb
+5. update the pipeline : End-to-end-ML-project/research/02_Data_validation.ipynb
+6. do the same with .py files from 2 to 5.
 
-
-
+7. commit the changes.
 
 
 
