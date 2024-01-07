@@ -79,7 +79,7 @@ DAY 1
 Day 2
 * Today :
 1. Notebook experiment
-2. Project utility : - logging, exceptions, utils module
+2. Project utility : - logging, exceptions (Box packaging - Box exception), utils module
 3. Project workflow
 
 
@@ -102,9 +102,16 @@ load data -> EDA ->
 
 - src/red_wine_quality_project/__init__.py # constructor file
 	- copy and pest the src/red_wine_quality_project/logging/__init__.py code
-	- 
+	- Commite the code
 
+7. create utility module
+-  src/red_wine_quality_project/utils/common.py write utility related functions
+- ex. : config.yaml and schema.yaml, to read yaml file we have to write a function, the function using frequently in your code; instant of creating that in in each component you just create a utility/common.py. like def read_yaml(), write_yaml(), load_object(), save_object(), etc.
 
+- End-to-end-ML-project/research/trials.ipynb
+
+8. exceptions (Box packaging - Box exception)
+- from box.exceptions import BoxValueError
 
 
 
