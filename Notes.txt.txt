@@ -169,8 +169,12 @@ Day 3
 9. update the pipeline 
 - in research\01_Data_ingestion.ipynb file first :: class DataIngestion
 
-
-
+10. move to .py file 
+- update the entity : End-to-end-ML-project/src/red_wine_quality_project/entity/__init__.py
+- update the configuration manager in src config : End-to-end-ML-project/src/red_wine_quality_project/config/configuration.py
+- update the components : End-to-end-ML-project/src/red_wine_quality_project/components/data_ingestion.py
+- update the pipeline : End-to-end-ML-project/src/red_wine_quality_project/pipeline/stage_01_data_ingestion.py
+- update the main.py : End-to-end-ML-project/main.py
 
 
 
