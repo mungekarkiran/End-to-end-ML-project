@@ -1,6 +1,7 @@
 from red_wine_quality_project.config.configuration import ConfigurationManager
 from red_wine_quality_project.components.data_transformation import DataTransformation
 from red_wine_quality_project import logger
+from pathlib import Path
 
 STAGE_NAME = "Data Transformation stage"
 
