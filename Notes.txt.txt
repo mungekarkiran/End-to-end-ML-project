@@ -134,7 +134,7 @@ Day 3
 * Today :
 1. Data ingestion component -> Github
 2. Dava validation component -> Validate columns
-3. Data transformation -> Train and val data
+3. Data transformation component -> Train and val data
 
 - on Jupyter Notebook and then on VS code
 
@@ -186,6 +186,13 @@ Day 3
 
 7. commit the changes.
 
+* Data transformation component
+1. add configuration : End-to-end-ML-project/research/03_Data_transformation.ipynb
+2. update entity in notebook : End-to-end-ML-project/research/03_Data_transformation.ipynb
+3. update the configuration manager in src config : End-to-end-ML-project/research/03_Data_transformation.ipynb
+4. update the components : End-to-end-ML-project/research/03_Data_transformation.ipynb
+5. update the pipeline : End-to-end-ML-project/research/03_Data_transformation.ipynb
+6. do the same with .py files from 2 to 5.
 
-
+7. commit the changes.
 
