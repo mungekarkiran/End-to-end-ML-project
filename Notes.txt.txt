@@ -59,6 +59,7 @@ DAY 1
 	- git config --global user.email "mungekarkiran05@gmail.com"
 	- git config --global user.name "mungekarkiran" 
 > git push origin main
+> git pull origin main
 6. Copy code in to template.py
 7. Run the template.py file
 	- Cookiecutter is a templating library for creating project boilerplates in any programming language.
@@ -131,13 +132,42 @@ load data -> EDA ->
 
 Day 3
 * Today :
+1. Data ingestion component -> Github
+2. Dava validation component -> Validate columns
+3. Data transformation -> Train and val data
+
+- on Jupyter Notebook and then on VS code
 
 
+1. create End-to-end-ML-project\research\01_Data_ingestion.ipynb file
+2. update config.yaml => 
+- create folder artifacts
+- download file from github like : https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip -> artifacts/data_ingestion/data.zip
+- unzip that file artifacts/data_ingestion/data.csv
 
+3. update schema.yaml
+- End-to-end-ML-project\schema.yaml
+- update schema as per csv columns
 
+4. update params.yaml
+- End-to-end-ML-project\params.yaml
+- initialy -> key: value
 
+5. update the entity
+- in research\01_Data_ingestion.ipynb file first
 
+6. update src\red_wine_quality_project\constants
+- adde config, param and schema Path
+- in research\01_Data_ingestion.ipynb file first
 
+7. update the configuration manager in src config
+- in research\01_Data_ingestion.ipynb file first :: class ConfigurationManager 
+
+8. update the components
+- in research\01_Data_ingestion.ipynb file first :: class DataIngestion
+
+9. update the pipeline 
+- in research\01_Data_ingestion.ipynb file first :: class DataIngestion
 
 
 
