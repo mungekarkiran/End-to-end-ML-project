@@ -196,3 +196,26 @@ Day 3
 
 7. commit the changes.
 
+===================================================
+
+Day 4
+* Today :
+1. Model training component
+2. Model evaluation component
+3. Prediction pipeline
+4. Web app -> flask
+
+* Model training component
+1. add configuration : End-to-end-ML-project/research/04_Model_trainer.ipynb
+	1.1. update params.yaml file : End-to-end-ML-project/params.yaml
+2. update entity in notebook : End-to-end-ML-project/research/04_Model_trainer.ipynb
+3. update the configuration manager in src config : End-to-end-ML-project/research/04_Model_trainer.ipynb
+4. update the components : End-to-end-ML-project/research/04_Model_trainer.ipynb
+5. update the pipeline : End-to-end-ML-project/research/04_Model_trainer.ipynb
+6. do the same with .py files from 2 to 5.
+
+7. commit the changes.
+
+
+
+
