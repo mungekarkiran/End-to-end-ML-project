@@ -240,3 +240,8 @@ Day 4
     "r2": 0.12028418931313456
 }
 
+* Prediction pipeline
+1. Create prediction.py file in pipleline : End-to-end-ML-project/src/red_wine_quality_project/pipeline/prediction.py
+
+* Web app -> flask
+1. open app.py : End-to-end-ML-project/app.py
