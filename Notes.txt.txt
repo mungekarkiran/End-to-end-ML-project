@@ -72,7 +72,7 @@ DAY 1
 	- AUTHOR_USER_NAME = "mungekarkiran"
 	- SRC_REPO = "red_wine_quality_project"
 	- AUTHOR_EMAIL = "mungekarkiran05@gmail.com"
- > pip install -r requirements.txt
+> pip install -r requirements.txt
 10. Push the changes on github
 
 ===================================================
@@ -227,5 +227,16 @@ Day 4
 
 7. commit the changes.
 
+- result by changing params.yaml file 
+{
+    "rmse": 0.7209606729030658,
+    "mae": 0.5607320968857268,
+    "r2": 0.3026773653436525
+}
 
+{
+    "rmse": 0.7656899527931946,
+    "mae": 0.6239580067084954,
+    "r2": 0.12028418931313456
+}
 
